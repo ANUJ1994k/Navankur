@@ -266,7 +266,7 @@ app.post("/api/purchase", async (req, res) => {
 
   // Send data to Webhook.site
   try {
-    await axios.post("https://webhook.site/#!/view/d9daf3fc-5407-43d5-8bb7-5f49ee04da16", {
+    await axios.post("https://webhook.site/YOUR_UNIQUE_URL", {
       user,
       cart,
       total,

@@ -1,0 +1,14 @@
+.card{
+    border:1 px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 1px 2px;
+    width: 75%;
+    margin: 7px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:5px
+}
